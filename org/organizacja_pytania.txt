@@ -1,0 +1,29 @@
+Problemy:
+- czy arch sys dobra (dane podzielone miedzy node'y kazdy odp jak moze i laczymy odp)
+- czy bawimy sie w redundancje
+- czy dokladamy node'y
+- sum, med, count (?)
+- mediana (parzysta l nodeow)
+- jaki język zapytań do kostki (jak zwracamy dane)
+- czy można podzielić kostkę i trzymać część na każdym nodzie?
+
+- harmonogram
+--- rozpisać research na zadania
+--- 
+- kostka metaforą człowieka
+
+1. Dostać i zapoznać się z danymi | Alek
+2. Generowanie danych testowych   | Alek
+3. Wirtualka, rozkminić jak korzystać z node'ów na uczelni zdalnie (pogadać z Borkowskim/Kozłowskim) | Janusz
+4. Opracować protokół, język zapytań | Janusz
+5. Struktura pamięci
+6. Architektura kostki i merge'owanie
+7. Język zapytań
+
+
+!!! Do nd harmonogram
+!!! Nd spotkanie wirt. omówić pracę inż
+
+- Trzymać w pamięci karty graficznej dane align 32 * wartosc, przy wstawianiu alokować nowy blok na 32 * n lub czekać z buforem aż dopełnimy do 32 wierszy, albo podzielić od razu pamięć na sekcje 4n, 4n+1, 4n+2, 4n+3 itp. (to nie merge)
+- Z jaką częstotliwością dane będą odpytywane
+- Czego potrzebuje klient (!ważne)

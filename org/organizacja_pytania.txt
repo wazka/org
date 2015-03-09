@@ -27,3 +27,9 @@ Problemy:
 - Trzymać w pamięci karty graficznej dane align 32 * wartosc, przy wstawianiu alokować nowy blok na 32 * n lub czekać z buforem aż dopełnimy do 32 wierszy, albo podzielić od razu pamięć na sekcje 4n, 4n+1, 4n+2, 4n+3 itp. (to nie merge)
 - Z jaką częstotliwością dane będą odpytywane
 - Czego potrzebuje klient (!ważne)
+
+
+-moduły IN i QUERY jako pluginy
+-baza danych ma być zoptymalizowana pod szeregi czasowe
+-nie ma redundancji
+-architektura ok
